@@ -26,5 +26,10 @@ function loadData() {
 
 function processEarthquakes(data) {
 	console.log(data);
-	//add markers to _map
+	//for each earthquake in the list
+	//call createMaker and send in the data about the quake
+}
+
+function createMarker(quake) {
+
 }
