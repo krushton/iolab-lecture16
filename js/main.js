@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
-	initializeMap();
+	//global variable _map stores map object
+	_map = initializeMap();
 	loadData();
 
 });
 
 
 function initializeMap() {
-	
-
+	//return map object
 }
 
 
@@ -26,4 +26,5 @@ function loadData() {
 
 function processEarthquakes(data) {
 	console.log(data);
+	//add markers to _map
 }
