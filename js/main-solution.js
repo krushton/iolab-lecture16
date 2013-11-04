@@ -1,11 +1,10 @@
 $(document).ready(function() {
 
 	_map = initializeMap();
-	_openWindow = null;
 	loadData();
-	test = [];
-	_markers = [];
 
+	//keep track of the currently open infowindow so we don't open more than once
+	_openWindow = null;
 });
 
 
@@ -93,7 +92,6 @@ function createMarker(quake) {
 	        _openWindow = infowindow;
 	    });
 
-	    _markers.push(marker);
 }
 
 function getMarkerColor(magnitude) {
