@@ -18,6 +18,8 @@ See: http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.ht
 <p>For each earthquake, create a marker and put it on the map. Give each marker a title that contains the magnitude of the quake. See the following link for information about the structure of the data http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php</p>
 
 <p>Intermediate: Use circles instead of markers, and make the radius of the circle correspond to the magnitude of the quake.</p>
+<p>Intermediate: Make the color of the marker match the severity of the quake.</p>
+
 
 <p>Advanced: Create a heatmap instead
 See: https://developers.google.com/maps/documentation/javascript/examples/layer-heatmap</p>
